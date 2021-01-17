@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@100&family=Montserrat&display=swap');
+
+body{
+    margin: 0;
+    background-color: #000000;
+    color: #c9f506;
+    font-family: 'Imbue', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+}
+
+.container nav{
+    height: 50px;
+    background-color: #015817;
+}
+
+nav button{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 280px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.page{
+    min-height: calc(100vh - 100px);
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+/* .footer{
+    height: 50px;
+    width: 100%;
+    background-color: #015817;
+} */
+
+#profile_page{
+    background-color: #0955f8;
+    height: 1.0em;
+}
+
+#adventure_page{
+    background-color: #0955f8;
+    height: 1.0em;
+    display: none;
+}
+
+#profile_pics{
+    width: 250px;
+    height: 300px;
+    margin-left: calc(50% - 100px);
+}
+#profile_desc{
+    width:auto;
+    text-align: right;
+}
+
+#adventure_page button{
+    max-width: 500px;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+#adventure_page button:hover{
+    background-color: #015817;
+    font-weight: bold;
+}
